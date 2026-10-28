@@ -1,0 +1,415 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 1466 376"
+  width="1466"
+  height="376"
+  preserveAspectRatio="xMidYMid meet"
+>
+
+<defs>
+    <!-- 主体橙色渐变 -->
+    <linearGradient id="panelFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e98a00"/>
+      <stop offset="35%" stop-color="#f39a00"/>
+      <stop offset="100%" stop-color="#ffb300"/>
+    </linearGradient>
+
+    <!-- 左上压暗 -->
+    <linearGradient id="shadeTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(120,50,0,0.35)"/>
+      <stop offset="100%" stop-color="rgba(120,50,0,0)"/>
+    </linearGradient>
+
+    <linearGradient id="shadeLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(120,50,0,0.28)"/>
+      <stop offset="100%" stop-color="rgba(120,50,0,0)"/>
+    </linearGradient>
+
+    <!-- 右下提亮 -->
+    <linearGradient id="lightRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,220,140,0)"/>
+      <stop offset="100%" stop-color="rgba(255,220,140,0.65)"/>
+    </linearGradient>
+
+    <linearGradient id="lightBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,220,140,0)"/>
+      <stop offset="100%" stop-color="rgba(255,220,140,0.65)"/>
+    </linearGradient>
+
+    <!-- 柔化边缘 -->
+    <filter id="soften" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+
+
+  <!-- 黑色三角-1 -->
+  <path
+    d="M 151 27
+       L 99  103.5
+       L 185 70
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <!-- 黑色三角-2 -->
+  <path
+    d="M 116 110.5
+       L 218 110.5
+       L 194 79
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="1"
+  />
+
+  <!-- 红色三角-1 -->
+  <path
+    d="M 83  124
+       L 70  144
+       L 319 243
+       L 225 124
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="3"
+  />
+
+  <!-- 红色三角-2 -->
+  <path
+    d="M 60  160
+       L 9   232
+       L 239 232
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="3"
+  />
+
+  <!-- 红色三角-3 -->
+  <path
+    d="M 60  160
+       L 9   232
+       L 240 232
+       Z"
+    fill="none"
+    stroke="#D52E1F"
+    stroke-width="3"
+  />
+
+  <!-- 红色三角-4 -->
+  <path
+    d="M 3   248
+       L 268 350
+       L 317 257
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="3"
+  />
+
+  <g transform="translate(0, 64)">
+
+  <!-- 左边红色条条-1 -->
+  <path
+    d="M 377 73
+       L 493 73
+       L 493 81
+       L 377 81
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="377"
+    cy="77"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="493"
+    cy="77"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 左边红色条条-2 -->
+  <path
+    d="M 377 108
+       L 493 108
+       L 493 116
+       L 377 116
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="377"
+    cy="112"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="493"
+    cy="112"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 左边红色条条-3 -->
+  <path
+    d="M 377 143
+       L 493 143
+       L 493 151
+       L 377 151
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="377"
+    cy="147"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="493"
+    cy="147"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 右边红色条条-1 -->
+  <path
+    d="M 1337 73
+       L 1453 73
+       L 1453 81
+       L 1337 81
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="1337"
+    cy="77"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="1453"
+    cy="77"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 右边红色条条-2 -->
+  <path
+    d="M 1337 108
+       L 1453 108
+       L 1453 116
+       L 1337 116
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="1337"
+    cy="112"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="1453"
+    cy="112"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 右边红色条条-3 -->
+  <path
+    d="M 1337 143
+       L 1453 143
+       L 1453 151
+       L 1337 151
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="1"
+  />  
+
+  <circle
+    cx="1337"
+    cy="147"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <circle
+    cx="1453"
+    cy="147"
+    r="4"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+  />
+
+  <!-- 红色三角-N -->
+  <path
+    d="M 1016 69
+       L 1104 141
+       L 1104 69
+       Z"
+    fill="#D52E1F"
+    stroke="#D52E1F"
+    stroke-width="8"
+    stroke-linejoin="round"
+  />
+
+  <!-- 黄色长方形-E -->
+  <g filter="url(#soften)">
+    <rect x="1207" y="113" width="43" height="20" fill="url(#panelFill)"/>
+
+    <!-- 左侧压暗 -->
+    <rect x="1207" y="113" width="4" height="20" fill="url(#shadeLeft)"/>
+
+    <!-- 顶部压暗 -->
+    <rect x="1207" y="113" width="43" height="3" fill="url(#shadeTop)"/>
+
+    <!-- 右侧提亮 -->
+    <rect x="1246" y="113" width="4" height="20" fill="url(#lightRight)"/>
+
+    <!-- 底部提亮 -->
+    <rect x="1207" y="131" width="43" height="2" fill="url(#lightBottom)"/>
+  </g>
+
+  <!-- 大字-1 -->
+  <path
+    d="M 660 92
+       L 637 98
+       L 637 89   
+       A 3  3  0 0 0 634 86
+       L 560 86     
+       A 3 3 0 0 0 557 89 
+       L 557 110    
+       A 3  3  0 0 0 560 113        
+       L 640 113
+       A 20 20 0 0 1 660 133
+       L 660 163
+       A 20 20 0 0 1 640 183
+       L 550 183
+       A 20 20 0 0 1 530 163
+       L 530 154
+       L 553 150
+       L 553 160
+       A 3  3  0 0 0 556 163     
+       L 634 163   
+       A 3  3  0 0 0 637 160  
+       L 637 136      
+       A 3  3  0 0 0 634 133        
+       L 554 133 
+       A 20 20 0 0 1 534 113
+       L 534 86
+       A 20 20 0 0 1 554 66
+       L 640 66
+       A 20 20 0 0 1 660 86
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />  
+
+  <!-- 大字-2 -->
+  <path
+    d="M 720 66
+       L 720 183
+       L 836 183
+       L 836 162
+       L 749 162
+       A 3  3  0 0 1 746 159        
+       L 746 66
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />  
+
+  <!-- 大字-3 -->
+  <path
+    d="M 879 66
+       L 879 183
+       L 905 183
+       L 905 66
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />  
+
+  <!-- 大字-4 -->
+  <path
+    d="M 967 66
+       L 967 183
+       L 990 183
+       L 990 101
+       L 1087 183
+       L 1107 183
+       L 1107 170
+       L 986  66
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />  
+
+  <!-- 大字-5 -->
+  <path
+    d="M 1170 66
+       L 1170 183
+       L 1290 183
+       L 1290 162
+       L 1196 162
+       L 1196 86
+       L 1290 86
+       L 1290 66
+       Z"
+    fill="black"
+    stroke="black"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />  
+
+  </g>
+
+</svg>
